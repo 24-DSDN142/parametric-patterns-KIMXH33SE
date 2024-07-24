@@ -1,6 +1,7 @@
 //your parameter variables go here!
 let rect_width  = 20;
 let rect_height = 20;
+let iceingSize = 80;
 
 
 function setup_wallpaper(pWallpaper) {
@@ -22,3 +23,8 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
   rect(40 ,40, rect_width, rect_height);
   //testing testing jajaja
 }
+
+//let iceingSize = 80; {
+ // fill(240, 255, 240);
+ // ellipse(25,170, iceingSize, iceingSize);
+//}
